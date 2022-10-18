@@ -14,7 +14,7 @@ else
     Console.WriteLine($"Number {Number2} is upper Number {Number1}"); */
 
 /* Семинар 1  Задача № 4  программа, которая принимает на вход три числа и выдаёт максимальное из этих чисел */
-Console.WriteLine("Input Number1");
+/*Console.WriteLine("Input Number1");
 int Number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input Number2");
 int Number2 = Convert.ToInt32(Console.ReadLine());
@@ -25,4 +25,14 @@ if (NumberMax < Number2)
     NumberMax = Number2;
 if (NumberMax < Number3)
     NumberMax = Number3;
-Console.WriteLine($"The maximunm dight is Number {NumberMax}");
+Console.WriteLine($"The maximunm dight is Number {NumberMax}");*/
+
+/* Семинар 1  Задача № 6: Программа, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка)*/
+
+Console.WriteLine("Input Number");
+int Number = Convert.ToInt32(Console.ReadLine());
+if(Number % 2 == 0)
+    Console.WriteLine($"Digit {Number} is even");   
+else 
+    Console.WriteLine($"Digit {Number} is even odd");
+
